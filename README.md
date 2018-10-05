@@ -1,19 +1,34 @@
 # tuna-plate 2018
 
-> Internal Ironhack Barcelona Hackathon (UX/UI + WebDev)
+##Description
 
-## How to use
+Landing page for coconuts products made by Superfood Inc to convey that superfoods aren’t just healthy but also fun, young, and appealing.
 
-- Fork to your github account
-- Use this file to describe your project, plan, take notes, todos, etc...
-- Have fun
+##MVP
 
-### Files included:
+Static page for mobile version.
 
-  - `index.html`
-  - `style.css`
-  - `main.js`
+##Backlog
 
-### Folders included:
+- Animations w/ Javascript
+- Loading page
+- More testimonials
+- Mini game
+- Backlog
 
-  - `./assets` (add images, fonts, etc...)
+##Data structure
+
+![alt text](https://drive.google.com/file/d/1X1jAFm9yM3e3GNkpCbagCauJ8GbBShGk/view)
+
+##Tasks
+
+HTML Structure
+
+HTML content
+
+CSS 
+
+DOM
+
+##Links
+

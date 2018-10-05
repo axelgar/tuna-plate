@@ -84,6 +84,15 @@ p {
   height: 70px;
 }
 
+.button-reverse {
+  font-size: 16px;
+  color: white;
+  background: orangered;
+  opacity: 0.5;
+  text-transform: uppercase;
+  margin: 5px 5px 5px 0;
+}
+
 /* ---- section ---- */
 .header{
   background-image: url("./images/guy-kawasaki-668861-unsplash.jpg");

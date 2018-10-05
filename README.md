@@ -18,7 +18,57 @@ Static page for mobile version.
 
 ##Data structure
 
-![alt text](https://drive.google.com/file/d/1X1jAFm9yM3e3GNkpCbagCauJ8GbBShGk/view)
+```
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Tunathon Barcelona 2018</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <img>
+      <h2></h2>
+    </header>
+    <main>
+      <form action="">
+        <div>
+          <input type="text" placeholder="">
+        </div>
+        <div>
+          <button></button>
+        </div>
+      </form>
+      <section class="storytelling">
+        <article></article>
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </section>
+      <section class="products">
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </section>
+      <section class="testimonials">
+        <img src="" alt="">
+        <p></p>
+      </section>
+    </main>
+    <footer>
+      <p></p>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
+```
 
 ##Tasks
 

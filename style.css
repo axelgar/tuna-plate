@@ -50,6 +50,7 @@ p {
 #site-footer {
   margin-bottom: 100px;
   text-decoration: underline;
+  font-size: 12px;
 }
 
 #site-main {
@@ -76,13 +77,6 @@ p {
 
 
 /* ---- components ---- */
-/* 
-.button {
-  width: 100%;
-  background-color: blue;
-  color: #fff;
-  border: 1px solid #fff
-} */
 
 
 .logo{
@@ -150,14 +144,15 @@ section.testimonials {
   background: linear-gradient(to right, #0075F2, #16F2F9); 
   align-items: center;
   position: fixed;
-  bottom: 10px;
+  bottom: 0;
+  width: 100%;
+  justify-content: center;
 }
 
 form input {
   font-size: 16px;
   display: inline-block;
   padding: 10px;
-  border: 1px black solid;
   margin: 5px 0 5px 5px;
   text-align: left;
 }

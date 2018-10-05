@@ -76,18 +76,14 @@ p {
 
 
 /* ---- components ---- */
-
+/* 
 .button {
   width: 100%;
   background-color: blue;
   color: #fff;
   border: 1px solid #fff
-}
+} */
 
-.button-alt {
-  color: blue;
-  background-color: #fff;
-}
 
 .logo{
   padding-top: 20px;
@@ -151,22 +147,25 @@ section.testimonials {
 
 .form {
   display: flex;
-  /* background: linear-gradient(to right, #0075F2, #16F2F9);  */
+  background: linear-gradient(to right, #0075F2, #16F2F9); 
   align-items: center;
   position: fixed;
   bottom: 10px;
 }
 
 form input {
-  font-size: 20px;
+  font-size: 16px;
   display: inline-block;
   padding: 10px;
   border: 1px black solid;
+  margin: 5px 0 5px 5px;
+  text-align: left;
 }
 
 form .button  {
-  font-size: 18px;
+  font-size: 16px;
   color: white;
   background: orangered;
   text-transform: uppercase;
+  margin: 5px 5px 5px 0;
 }

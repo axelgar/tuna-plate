@@ -12,6 +12,16 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
+  color: #292B2F;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
 }
 
 
@@ -33,14 +43,13 @@ p {
 /* ---- layout ---- */
 
 #site-header {
-  padding: 30px 0;
+  padding: 0;
   color: white;
 }
 
 #site-footer {
-  color: white;
-  padding: 60px 0;
-  background: #111;
+  margin-bottom: 100px;
+  text-decoration: underline;
 }
 
 #site-main {
@@ -81,6 +90,7 @@ p {
 }
 
 .logo{
+  padding-top: 20px;
   height: 50px;
 }
 
@@ -93,7 +103,7 @@ p {
 
 .header h2{
   font-size: 30px;
-  padding: 130px 0 60px 0;
+  padding: 110px 0 10px 0;
   text-transform: uppercase;
   margin: 20px 0; 
   line-height: 40px;
@@ -103,13 +113,60 @@ p {
 
 section.storytelling {
   text-align: left;
+  margin-bottom: 20px;
 }
 
-section.products {
+.storytelling li {
+  list-style: circle;
+}
 
+article {
+  margin-bottom: 20px;
+}
+
+.products h3 {
+  color: #4A90E2;
+  font-size: 20px;
+}
+
+.products .image  {
+  height: 124px;
 }
 
 section.testimonials {
   margin-bottom: 10px;
+  background: linear-gradient(to right, #0075F2, #16F2F9); 
+  width: 100%;
+  margin: 0;
+  margin-bottom: 20px;
+  color: white;
+  padding-bottom: 10px;
 }
 
+.testimonials img {
+  padding-top: 10px;
+  height: 80px;
+  border-radius: 100px;
+}
+
+.form {
+  display: flex;
+  /* background: linear-gradient(to right, #0075F2, #16F2F9);  */
+  align-items: center;
+  position: fixed;
+  bottom: 10px;
+}
+
+form input {
+  font-size: 20px;
+  display: inline-block;
+  padding: 10px;
+  border: 1px black solid;
+}
+
+form .button  {
+  font-size: 18px;
+  color: white;
+  background: orangered;
+  text-transform: uppercase;
+}
